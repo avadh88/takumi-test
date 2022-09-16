@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## How to check
+- clone the project
+- go to project directory
+- run command "composer install"
+- run commnad "php artisan serve"
+- go to browser
+- All products
+http://127.0.0.1:8000/api/products
+
+- Filter with category
+http://127.0.0.1:8000/api/products?category=insurance
+
+- Filter with price and category
+http://127.0.0.1:8000/api/products?category=insurance&price=89000
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
